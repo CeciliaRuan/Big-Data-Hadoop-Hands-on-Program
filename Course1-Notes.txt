@@ -79,3 +79,11 @@ workflow inside MapReduce:
   in the face of disk, node or rack failures
   4.Cheap
   ○ Cluster of inexpensive servers
+
+
+Prepare for the Big Data Program:
+● Algorithm
+● System design
+● Big data projects
+● Implementation/Algorithm behind the projects
+● Master one or two tools related to big data
