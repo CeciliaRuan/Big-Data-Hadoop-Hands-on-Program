@@ -1,0 +1,36 @@
+Introduction to Big Data
+1.Job Scope
+Data Warehouse-原始数据的存储，要求retrieve的返回
+Data Analysis-基于原始数据的分析，得出结论
+Data Transformation-建模，分析，转化，结构化数据存储
+Data Collection-信息收集，综合呈现，过滤
+2.Hadoop in Industries
+Google:Youtube Search Ranking--Personalized Search Ranking
+Linkedin:People You May Know--Calculate distance between people
+Netflix:Movie Recommendation--
+Facebook:Store and Process log files
+
+Introduction to Hadoop Ecosystem
+1.What is hadoop?
+Apache Hadoop is an open source software framework for storage and large scale processing of data-sets on clusters of commodity hardware.
+2.Why is hadoop?
+集群
+分而治之：并行运行，速度和效率会大大提升；独立处理性能要求降低，控制成本
+3.Hardoop Ecosystem
+Data Engineer 主要掌握：HBase,HDFS,MapReduce,Hive(数据仓库工具)
+-Now the data is coming in, what is the first thing to do?
+--Storage on multiple machines
+  HDFS:
+  Data Storage
+○ Data Split
+○ Data replication
+All you care about is the path of file: /hdfs/input/doc1.txt
+  MapReduce:
+  Data Processing
+○ How to leverage job
+○ How do nodes communicate
+○ How to deal with node failure
+  All you care about is input and output
+  HBase:
+  HBase is an open source, non-relational, distributed database
+  Key-Value store
